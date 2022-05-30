@@ -1,0 +1,34 @@
+Stock Prediction
+------------------
+
+1. Data Collection Phase:
+--------------------------
+a.  We have collected real time data from nse website.
+
+b.  Any stock with NSE symbol can be given in the textbox "Enter Symbol" Ex. SBIN, HDFC, TCS, INFY
+
+c. Press Submit button to extract real time data from 2000 to present date
+
+d. Feature collected are Date, Symbol, Series, Prev close, Open, High, Low, Last, Close, VWAP, Volume, Turnover
+
+e. Also shown price trend in graph
+
+
+2. Prediction Phase
+--------------------
+
+a.  We have applied Kmeans Clustering, we have created 3 clusters namely, Cluster0, Cluster1, Cluster2
+
+b. Centroid plot is done for Three cluster
+
+c. Random Forest and Decision Tree algorithm is applied in Clusters for prediction.
+
+d. Predicted value and Real (original) values are ploted. 
+
+e. Accuracy and Error values are arrived
+
+3. Forecast Phase
+------------------
+a. Five days forecast using Decision Tree and Random forest is done.
+
+Thanks
